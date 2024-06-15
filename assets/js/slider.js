@@ -1,43 +1,45 @@
 let images = [
   {
-    url: "https://image.nhandan.vn/Uploaded/2024/unqxwpejw/2023_09_24/anh-dep-giao-thong-1626.jpg",
-    caption: "404 wallpaper",
-    info: "Sample info",
+    url: "https://cdn.vjshop.vn/tin-tuc/concept-chup-anh-cuoi/concept-chup-anh-cuoi-dep-nhat.jpg",
+    caption: "Chúng ta sẽ về chung một nhà",
+    info: "Ảnh cưới",
   },
   {
-    url: "https://image.nhandan.vn/Uploaded/2024/unqxwpejw/2023_09_24/anh-dep-giao-thong-1626.jpg",
-    caption: "404 second wallpaper",
-    info: "Sample info",
+    url: "https://kenh14cdn.com/2019/5/31/photo-1-1559273235918772972227-15592813981001741901649-15592814273891061329346.png",
+    caption: "Thanh xuân Tháng năm để dành",
+    info: "Kỷ yếu",
   },
   {
-    url: "https://image.nhandan.vn/Uploaded/2024/unqxwpejw/2023_09_24/anh-dep-giao-thong-1626.jpg",
-    caption: "404 third wallpaper",
-    info: "Sample info",
+    url: "https://mayanhhoangto.com/wp-content/uploads/2022/05/chup-anh.jpg",
+    caption: "Phong cách thơ mộng, mềm mại, nữ tính",
+    info: "Nàng thơ",
   },
   {
-    url: "https://image.nhandan.vn/Uploaded/2024/unqxwpejw/2023_09_24/anh-dep-giao-thong-1626.jpg",
-    caption: "404 fourth wallpaper",
-    info: "Sample info",
+    url: "https://mayanhhoangto.com/wp-content/uploads/2022/05/vay-cong-chua.jpg",
+    caption: "Thiếu nữ trong sáng trong bộ váy công chúa",
+    info: "Nàng thơ",
   },
   {
-    url: "https://image.nhandan.vn/Uploaded/2024/unqxwpejw/2023_09_24/anh-dep-giao-thong-1626.jpg",
-    caption: "404 fifth wallpaper",
-    info: "Sample info",
+    url: "https://mayanhhoangto.com/wp-content/uploads/2023/12/nhung-y-tuong-concept-chup-anh-sinh-nhat-ma-ban-phai-thu.jpg",
+    caption: "Black Queen cho một cô gái yêu thích sự sang trọng và quý phái",
+    info: "Sinh nhật",
   },
   {
-    url: "https://image.nhandan.vn/Uploaded/2024/unqxwpejw/2023_09_24/anh-dep-giao-thong-1626.jpg",
-    caption: "404 sixth wallpaper",
-    info: "Sample info",
+    url: "https://mayanhhoangto.com/wp-content/uploads/2023/12/concept-chup-anh-sinh-nhat-beauty-queen.jpg",
+    caption:
+      "Chụp ảnh Beauty Queen này sẽ là một ý tưởng thú vị để thử trong dịp sinh nhật của mình",
+    info: "Sinh nhật",
   },
   {
-    url: "https://image.nhandan.vn/Uploaded/2024/unqxwpejw/2023_09_24/anh-dep-giao-thong-1626.jpg",
-    caption: "404 seventh wallpaper",
-    info: "Sample info",
+    url: "https://images2.thanhnien.vn/zoom/700_438/528068263637045248/2024/1/17/concept-chup-anh-tet-gaonau-2-17054650719451057190165-114-0-947-1333-crop-17054660565931047058204.jpg",
+    caption:
+      "Thời điểm cuối năm mọi người cùng rủ nhau chụp ảnh Tết với áo dài",
+    info: "Chụp ảnh Tết",
   },
   {
-    url: "https://image.nhandan.vn/Uploaded/2024/unqxwpejw/2023_09_24/anh-dep-giao-thong-1626.jpg",
-    caption: "404 eighth wallpaper",
-    info: "Sample info",
+    url: "https://htmediagroup.vn/wp-content/uploads/2021/10/Anh-profile-14-1170x781.jpg",
+    caption: "Xây dựng thương hiệu cá nhân",
+    info: "Chân dung",
   },
 ];
 const mainView = document.getElementById("main-view");
