@@ -26,13 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="assets/css/slider.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -57,16 +52,37 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">    
+  <section id="hero" class="d-flex flex-column justify-content-center" style="justify-content: center;align-items: center;">    
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Én Việt Media</h1>
-      <p>Truyền thông & Tổ chức Sự kiện <span class="typed" data-typed-items=" - Tinh tế trong từng khoảnh khắc"></span></p>
-      <div class="social-links">
-        <a href="https://www.tiktok.com/@envietmediaevents" class="tiktok"><i class="bx bxl-tiktok"></i></a>
-        <a href="https://www.facebook.com/enviet.media" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="http://www.youtube.com/@enviet.mediavn" class="youtube"><i class="bx bxl-youtube"></i></a>
+      <div class="row">
+        <div class="col-lg-1" style="bottom: 20px;">
+          <a href="index.html"> <img src="./assets/img/logo.png" width="70" /></a>
+        </div>
+        <div class="col-lg-7">
+          <h1>Én Việt Media</h1>
+          <p>Công ty Truyền thông & Tổ chức Sự kiện <span class="typed" data-typed-items=" - Tinh tế trong từng khoảnh khắc"></span></p>
+        </div>
+        <div class="col-lg-4 social-links">
+          <a href="https://www.tiktok.com/@envietmediaevents" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+          <a href="https://www.facebook.com/enviet.media" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="http://www.youtube.com/@enviet.mediavn" class="youtube"><i class="bx bxl-youtube"></i></a>
+        </div>
       </div>      
+      <!--Slider--> 
+      <div id="slider" style="width: 900; height: 200;">
+        <div class="gallery">
+          <div class="main-image-section">
+            <img id="main-view" class="main-view" src= "./assets/img/portfolio/cp2/DSC03746.png" onclick= "fullScreenImage();"/>
+            <div class="caption-container">
+              <div id="caption">This is the caption</div>
+              <div id="info">This is info message</div>
+            </div>
+          </div>
+          <div id= "thumbnails" class="thumbnails"></div>
+        </div>
+      </div>
+      <!--End Slider-->   
     </div>    
   </section><!-- End Hero -->
   
@@ -590,7 +606,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>Liên hệ với Én Việt</h2>
         </div>
 
         <div class="row mt-1">
@@ -611,7 +627,7 @@
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
+                <h4>Số điện thoại:</h4>
                 <p>098 618 77 87</p>
               </div>
 
@@ -624,24 +640,24 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tên của bạn" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email của bạn" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Thời gian book lịch" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Trao đổi thêm thông tin" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit"> Gửi </button></div>
             </form>
 
           </div>
@@ -693,6 +709,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/slider.js"></script>
+
 </body>
 
 </html>
